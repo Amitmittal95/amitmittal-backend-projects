@@ -15,6 +15,7 @@ public class UserService {
     {
         userData.add(new UserEntity("amitmittal","Amit74","amitmittal@gmail.com"));
         userData.add(new UserEntity("abhinamsingh","abhinam36","abhinam@gmail.com"));
+        userData.add(new UserEntity("avinash","abhinam36","abhinam@gmail.com"));
     }
 
     //getAllUsers

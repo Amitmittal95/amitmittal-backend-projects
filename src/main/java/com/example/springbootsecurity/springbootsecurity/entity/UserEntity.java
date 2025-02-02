@@ -4,7 +4,7 @@ package com.example.springbootsecurity.springbootsecurity.entity;
 import lombok.*;
 
 @Data
-@AllArgsConstructor
+//@AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
@@ -26,9 +26,9 @@ public class UserEntity {
 //        return email;
 //    }
 //
-//    public UserEntity(String userName, String password, String email) {
-//        this.userName = userName;
-//        this.password = password;
-//        this.email = email;
-//    }
+    public UserEntity(String userName, String password, String email) {
+        this.userName = userName;
+        this.password = password;
+        this.email = email;
+    }
 }
